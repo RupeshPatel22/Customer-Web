@@ -1,0 +1,52 @@
+<div class="main">
+    <div class="header d-flex">
+        <span class="d-flex flex-column ms-5">
+            <img src="../../../assets/images/speedyy-gif.gif" alt="" height="80" width="85">
+            <!-- <img class="mt-2" src="../../../assets/images/speedyy.svg" alt="" height="12" width="64"> -->
+        </span>
+        <span class="d-flex align-items-center ms-4">
+            <label class="heading">Mumbai</label>
+            <img class="ms-3" src="../../../assets/images/Path.svg" alt="">
+        </span>
+    </div>
+    <div class="create-heading">
+        <h1><b>Create new account</b></h1>
+        <h2>Fill the details to continue</h2>
+    </div>
+    <div class="form d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex flex-column align-items-center">
+            <span class="d-flex flex-column">
+                <label class="mt-2"><b>Full Name</b></label>
+                <input class="mt-2" type="text" placeholder="Enter Your Name">
+            </span>
+            <span class="d-flex flex-column">
+                <label class="mt-3"><b>Email</b></label>
+                <input class="mt-2" type="text" placeholder="Enter Your Email">
+            </span>
+            <span class="d-flex flex-column">
+                <label class="mt-3" for=""><b>Enter Phone Number</b></label>
+                    <span class="mt-3"> 
+                        <span class="country-code">
+                            <img src="../../../assets/images/flag.svg" alt="" height="30" width="30">
+                            <label class="ms-2 code" for=""><b>+91</b></label>
+                        </span>
+            <input class="mt-2 ms-2" type="text" placeholder="Phone Number">
+            </span>
+            </span>
+        </div>
+
+        <div class="d-flex flex-column align-items-center justify-content-center mt-5">
+            <p>By clicking Create account, you are agree to our<b> Terms of Service</b> and<b> Privacy Policy</b> statement.</p>
+            <button class="btn-countinue mt-4"><b>Continue</b></button>
+        </div>
+
+    </div>
+    <div class="create-heading">
+        <h1><b>Verify Phone</b></h1>
+        <h2>Enter the code we just sent to +91-88888 88888</h2>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+        <ng-otp-input [config]="{length:5}"></ng-otp-input>
+        <button class="btn-countinue mt-4"><b>Continue</b></button>
+    </div>
+</div>

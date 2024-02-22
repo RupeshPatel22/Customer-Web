@@ -1,0 +1,173 @@
+.delivery {
+    padding: 20px 40px;
+    .back-btn {
+        cursor: pointer;
+    }
+    .delivery-detail {
+        .address {
+            ul {
+                list-style: none;
+                padding: 0;
+                .add-new {
+                    border: 1px dashed #FCD400;
+                    background-color: #FFFBE4;
+                    border-radius: 8px;
+                    cursor: pointer;
+                }
+                li {
+                    margin: 1rem;
+                    height: 220px;
+                    width: 520px;
+                    border-radius: 12px;
+                    border: 1px solid #E7ECEF;
+                    padding: 20px;
+                    a {
+                        color: #2D2A2E;
+                        font-weight: 600;
+                        font-size: 14px;
+                        letter-spacing: -0.2px;
+                    }
+                    p {
+                        text-align: justify;
+                    }
+                    button {
+                        border: 1px solid #2D2A2E;
+                        border-radius: 8px;
+                        color: #2D2A2E;
+                        background-color: #FFFFFF;
+                        width: 150px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+        .payment-method {
+            // padding: 20px 40px;
+            .back-arrow {
+                cursor: pointer;
+            }
+            .select-payment {
+                .payment-information {
+                    .address {
+                        border: 1px solid #D2D9DE;
+                        border-radius: 10px;
+                        padding: 1rem;
+                        a {
+                            color: #2D2A2E;
+                            font-weight: 600;
+                            font-size: 14px;
+                            letter-spacing: -0.2px;
+                        }
+                    }
+                    .payment-options {
+                        .payment-detail {
+                            border: 1px solid #E7ECEF;
+                            border-radius: 12px;
+                            height: 336px;
+                            .side-nav {
+                                background-color: #F2F5F8;
+                                // padding: 10px;
+                                a {
+                                    cursor: pointer;
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    color: #6D7E8B;
+                                    padding: 10px;
+                                    text-decoration: none;
+                                }
+                            }
+                            .saved-payment-method {
+                                padding: 10px 20px;
+                                p {
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    color: #6D7E8B;
+                                }
+                                .cvv {
+                                    border: 1px solid #F2F5F8;
+                                    border-radius: 8px;
+                                    height: 32px;
+                                    width: 55px;
+                                    outline: none;
+                                     ::placeholder {
+                                        color: #8D9DA8;
+                                        padding: 10px;
+                                    }
+                                }
+                                .name {
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    color: #0D1D28;
+                                }
+                                label {
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    color: #6D7E8B;
+                                }
+                                .wallet {
+                                    border-top: 1px solid #F2F5F8;
+                                    padding-top: 20px;
+                                }
+                            }
+                            .credit-debit-card {
+                                padding: 10px 20px;
+                                label {
+                                    font-weight: 600;
+                                    font-size: 16px;
+                                    color: #0D1D28;
+                                }
+                                .save {
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    color: #8D9DA8;
+                                }
+                                input {
+                                    border-bottom: 1px solid #E7ECEF !important;
+                                    outline: none;
+                                    border: none;
+                                     ::placeholder {
+                                        color: #8D9DA8;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .cart {
+            .cart-detail {
+                border: 1px solid #D2D9DE;
+                border-radius: 12px;
+                padding: 1rem;
+                .restaurant-image {
+                    border-radius: 8px;
+                }
+                .customisable {
+                    color: #FF604A;
+                }
+                input {
+                    background-color: #F2F5F8;
+                    border-radius: 10px;
+                    border: 1px dashed #D2D9DE;
+                    height: 50px;
+                     ::placeholder {
+                        color: #2D2A2E;
+                    }
+                }
+                .coupon {
+                    background: #FEF7D3;
+                    /* accent */
+                    border: 1px dashed #FCD400;
+                    border-radius: 8px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+.select {
+    background-color: #FFFFFF;
+    border-left: 3px solid #2D2A2E;
+}

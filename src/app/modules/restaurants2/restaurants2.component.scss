@@ -1,0 +1,115 @@
+.restaurants-main {
+    padding: 20px 40px;
+    .all-service {
+        h1 {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            /* identical to box height, or 133% */
+            letter-spacing: 0.002em;
+            /* 900 */
+            color: #0D1D28;
+        }
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            /* identical to box height, or 129% */
+            text-align: center;
+            letter-spacing: -0.001em;
+            /* 700 */
+            color: #374956;
+        }
+    }
+    .restaurants {
+        h1 {
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 32px;
+            /* identical to box height, or 133% */
+            letter-spacing: 0.002em;
+            /* 900 */
+            color: #0D1D28;
+        }
+        .all-restaurants {
+            h2 {
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+                letter-spacing: 0.2px;
+                /* secondary color */
+                color: #2D2A2E;
+            }
+            .sort-by {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                /* identical to box height, or 143% */
+                /* 700 */
+                color: #374956;
+            }
+            .input-radio {
+                accent-color: yellow;
+                height: 20px;
+                width: 20px;
+            }
+            .category {
+                .selected {
+                    background-color: #FCD810;
+                    border: none;
+                }
+                p {
+                    // margin: 0.5rem;
+                    border: 1px solid #8D9DA8;
+                    padding: 10px 25px;
+                    border-radius: 47px;
+                    color: #50616E;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            .cost-per-person {
+                p {
+                    // margin: 0.5rem;
+                    border: 1px solid #8D9DA8;
+                    padding: 10px 25px;
+                    border-radius: 47px;
+                    color: #50616E;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .favorite {
+            h2 {
+                // margin: 0.5rem;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+                li {
+                    height: 23.5rem;
+                    width: 25rem;
+                    .outlet-image {
+                        width: 25rem;
+                        cursor: pointer;
+                    }
+                    h2 {
+                        cursor: pointer;
+                    }
+                    p {
+                        font-size: 17px;
+                        color: #6D7E8B;
+                        border-bottom: 1px dashed #D2D9DE;
+                        padding-bottom: 20px;
+                    }
+                    label {
+                        font-size: 15px;
+                        color: #6D7E8B;
+                    }
+                }
+            }
+        }
+    }
+}

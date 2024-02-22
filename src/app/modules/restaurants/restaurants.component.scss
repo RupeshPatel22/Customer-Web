@@ -1,0 +1,66 @@
+.restaurants-main {
+    padding: 20px 40px;
+    .all-service {
+        p {
+            font-size: 16px;
+            color: #374956;
+        }
+    }
+    .restaurants {
+        .all-restaurants {
+            p {
+                font-size: 15px;
+            }
+            .category {
+                .selected {
+                    background-color: #FCD810;
+                    border: none;
+                }
+                p {
+                    margin: 0.5rem;
+                    border: 1px solid #50616E;
+                    padding: 10px 25px;
+                    border-radius: 47px;
+                    color: #50616E;
+                }
+            }
+            .cost-per-person {
+                p {
+                    margin: 0.5rem;
+                    border: 1px solid #50616E;
+                    padding: 10px 25px;
+                    border-radius: 47px;
+                    color: #50616E;
+                }
+            }
+        }
+        .favorite {
+            h2 {
+                margin: 0.5rem;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+                li {
+                    height: 23.5rem;
+                    width: 25rem;
+                    .outlet-image {
+                        width: 25rem;
+                        cursor: pointer;
+                    }
+                    h2 {
+                        cursor: pointer;
+                    }
+                    p {
+                        font-size: 17px;
+                        color: #6D7E8B;
+                    }
+                    label {
+                        font-size: 15px;
+                        color: #6D7E8B;
+                    }
+                }
+            }
+        }
+    }
+}

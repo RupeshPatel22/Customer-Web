@@ -1,0 +1,38 @@
+<div class="login-main">
+    <div class="login-wrapper d-flex flex-column justify-content-center align-items-center">
+        <div class="box-form  mt-5">
+            <div class="header d-flex flex-column align-items-center">
+                <img class="company-logo" src="../../../../assets/images/speedyy-gif.gif" alt="Speedyy logo is here" height="120" width="120">
+                <header class="heading mt-4">Get Readyy for Speedyy</header>
+            </div>
+            <form [formGroup]="registerForm" class="register-form">
+                <label class="input-heading" for="">Enter Full Name</label>
+                <div class="input-field">
+                    <mat-form-field class="custom-full-name" appearance="outline">
+                        <input matInput formControlName="fullName" type="text" placeholder="Enter your full name">
+                    </mat-form-field>
+                </div>
+                <label class="input-heading" for="">Enter Email</label>
+                <div class="input-field">
+                    <mat-form-field class="custom-email" appearance="outline">
+                        <input matInput formControlName="email" type="email" placeholder="Enter your email">
+                    </mat-form-field>
+                </div>
+                <label class="input-heading" for="">Enter Mobile Number</label>
+                <div class="mobile-number-details d-flex">
+                    <div class="custom-code-field row" appearance="outline">
+                        <i class="flag-icon flag-icon-in col-4"></i>
+                        <input class="country-code col-4" type="text" matInput formControlName="userCountryCode" placeholder="+91" />
+                    </div>
+                    <div class="input-phn-field">
+                        <mat-form-field class="custom-mobile-field" appearance="outline">
+                            <input matInput formControlName="phone" type="text" placeholder="Enter your mobile number">
+                        </mat-form-field>
+                    </div>
+                </div>
+                <button (click)="sendOtp()" class="custom-btn mt-3" [routerLink]="'/login/otp'" mat-flat-button>SEND OTP</button>
+            </form>
+            <a class="a-link d-flex justify-content-end mt-3" [routerLink]="'/login'">Already a user? Login here</a>
+        </div>
+    </div>
+</div>

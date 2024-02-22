@@ -1,0 +1,37 @@
+.my-wishlist-main {
+    &__content {
+        .my-wishlist {
+            padding: 10px 30px;
+            h1 {
+                font-weight: 600;
+                font-size: 34px;
+                color: #0D1D28;
+            }
+            .item {
+                border-bottom: 1px solid #F2F5F8;
+                padding: 20px 0;
+                .item-name {
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #2D2A2E;
+                }
+                .price {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #2D2A2E;
+                }
+                .discount-amount {
+                    font-weight: 275;
+                    font-size: 15px;
+                    color: #6D7E8B;
+                    text-decoration-line: line-through;
+                }
+                .discount-percentage {
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #2D2A2E;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+.header-main {
+    background-image: url('../../../assets/images/home-header.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px 50px;
+    height: max-content;
+    .logo-notification {
+        .log-in {
+            color: #000;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            height: 42px;
+            width: 101px;
+            border: none;
+        }
+        .sign-up {
+            color: #000;
+            background-color: #FCD400;
+            border-radius: 10px;
+            height: 42px;
+            width: 101px;
+            border: none;
+        }
+    }
+    .location {
+        padding: 10px;
+        background-color: #FFFFFF;
+        height: 45px;
+        width: 125px;
+        border-radius: 10px 0 0 10px;
+        p {
+            margin: 0;
+        }
+    }
+    .input {
+        height: 45px;
+        border: none;
+        border-left: 1px solid #000;
+        padding: 20px 30px;
+        outline: none;
+         ::placeholder {
+            color: red;
+        }
+    }
+    .btn-search {
+        color: #FFFFFF;
+        background-color: #000;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        width: 150px;
+        height: 48px;
+    }
+}
+
+.our-services {
+    padding: 50px 100px;
+    img:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .heading-text {
+        font-size: 3rem;
+    }
+    label {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+        letter-spacing: -0.2px;
+        /* 800 */
+        color: #1C2A38;
+    }
+}
+
+// .main {
+//     background-color: #FFB703;
+//     height: 100%;
+//     padding: 20px 40px;
+//     .header {
+//         width: 85vw;
+//         span {
+//             // width: 80%;
+//             .sign-up-btn {
+//                 color: #FFB703;
+//                 background-color: #000000;
+//                 border-radius: 0 !important;
+//             }
+//         }
+//     }
+//     .left {
+//         height: 100%;
+//         width: 30%;
+//         .location-details {
+//             width: 100%;
+//             .location {
+//                 border-radius: 0 !important;
+//                 width: 60%;
+//             }
+//             .locate-me-btn {
+//                 border-radius: 0 !important;
+//                 color: #FFB703;
+//                 background-color: #000000;
+//                 width: 40%;
+//             }
+//         }
+//         .map-img {
+//             width: 100%;
+//         }
+//     }
+//     .right {
+//         height: 100%;
+//         width: 60%;
+//         span {
+//             width: 50%;
+//             .banner-1 {
+//                 height: 90%;
+//             }
+//         }
+//     }
+//     .footer {
+//         width: 65%;
+//     }
+// }

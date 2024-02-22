@@ -1,0 +1,25 @@
+.login-main {
+    height: 90%;
+    padding: 2rem;
+    background-color: #f2f5f8!important;
+    .login-wrapper {
+        .box-form {
+            width: 35%;
+            background-color: #ffff;
+            padding: 2rem;
+            border-radius: 10px;
+            // border: none;
+            button {
+                width: 100%;
+                border: 1px solid;
+                background: black;
+                color: white;
+                padding: 0.5rem;
+                border-radius: 8px;
+            }
+            a {
+                color: #6d7e8b;
+            }
+        }
+    }
+}

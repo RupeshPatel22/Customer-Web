@@ -1,0 +1,101 @@
+<div class="home-main w-100">
+    <div class="header-main">
+        <div class="logo-notification d-flex justify-content-between align-items-center">
+            <span>
+    <img
+      src="../../../assets/images/speedyy-logo-home-page.svg"
+      alt="Speedyy Logo is here"
+    />
+  </span>
+            <span class="d-flex justify-content-evenly w-25">
+    <img
+      src="../../../assets/images/notification-home-page.svg"
+      alt="Notification Logo is here"
+    />
+    <button class="log-in" [routerLink]="'/login'"><b>Log In</b></button>
+    <button class="sign-up" [routerLink]="'login/register'"><b>Sign up</b></button>
+  </span>
+        </div>
+        <div class="d-flex mt-5 ms-5">
+            <img src="../../../assets/images/One solution to order food, grocery and book home services....png" alt="Text is here" />
+        </div>
+        <div class=" d-flex  align-items-center mt-5 ms-5">
+            <span class="location d-flex align-items-center">
+        <img src="../../../assets/images/Location.png" alt="Location logo is here" height="30" width="30" />
+        <p class="d-flex ms-2"><b>Mumbai</b></p>
+      </span>
+            <input class="input" type="text" placeholder="What are you looking for?" />
+            <button class="btn-search"><b>Search</b></button>
+        </div>
+    </div>
+    <div class="our-services d-flex flex-column justify-content-center  w-100">
+        <label class="heading-text d-flex justify-content-center mb-5">Our Services</label>
+        <div class="d-flex justify-content-evenly mt-2">
+            <span class="d-flex flex-column">
+              <img src="../../../assets/images/food-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+              <label class="mt-3" for="">Food</label>
+            </span>
+            <span class="d-flex flex-column">
+              <img src="../../../assets/images/grocery-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+              <label class="mt-3" for="">Grocery</label>
+            </span>
+            <span class="d-flex flex-column">
+              <img src="../../../assets/images/pharma-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+              <label class="mt-3" for="">Pharma</label>
+            </span>
+            <span class="d-flex flex-column">
+              <img src="../../../assets/images/urban-services-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+              <label class="mt-3" for="">Urban Service</label>
+            </span>
+
+        </div>
+        <div class="d-flex justify-content-evenly mt-5">
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/pet-shop-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Pet Shop</label>
+          </span>
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/local-transport-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Local Transport</label>
+          </span>
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/hotel-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Hotels</label>
+          </span>
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/urban-services-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Urban Service</label>
+          </span>
+
+        </div>
+        <div class="d-flex justify-content-evenly mt-5">
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/lifestyle-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Lifestyle</label>
+          </span>
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/electronics-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Electronics</label>
+          </span>
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/pharma-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Pharma</label>
+          </span>
+            <span class="d-flex flex-column">
+            <img src="../../../assets/images/flower-shop-cart-image.png" [routerLink]="'/restaurants2'" alt="">
+            <label class="mt-3" for="">Flower Shop</label>
+          </span>
+
+        </div>
+        <!-- <div>
+            <img src="../../../assets/images/pet-store.png" alt="">
+            <img src="../../../assets/images/cab-service.png" alt="">
+        </div>  -->
+    </div>
+    <div class="become-partner w-100">
+        <img class="w-100" src="../../../assets/images/home-banner.svg" alt="">
+        <!-- <button>Become a Partner</button> -->
+    </div>
+
+    <app-footer></app-footer>
+</div>

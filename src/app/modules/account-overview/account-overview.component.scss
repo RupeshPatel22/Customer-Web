@@ -1,0 +1,57 @@
+.account-overview-main {
+    // padding: 40px 50px;
+    &__content {
+        .side-nave {
+            border: 1px solid #F2F5F8;
+            border-radius: 12px;
+            background-color: #FCFDFF;
+            padding: 20px;
+            label {
+                font-size: 19px;
+                letter-spacing: 1px;
+                font-weight: 600;
+                color: #0D1D28;
+                cursor: pointer;
+            }
+            img {
+                cursor: pointer;
+            }
+        }
+        .account-overview {
+            padding: 10px 30px;
+            h1 {
+                font-size: 34px;
+                font-weight: 600;
+                color: #0D1D28;
+            }
+            h2 {
+                font-size: 26px;
+                font-weight: 500;
+                color: #0D1D28;
+            }
+            .user-detail {
+                border-bottom: 1px solid #F2F5F8;
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #8D9DA8;
+                }
+                label {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #2D2A2E;
+                }
+            }
+            button {
+                color: #2D2A2E;
+                border: 1px solid #2D2A2E;
+                border-radius: 12px;
+                background-color: #FFFFFF;
+                height: 42px;
+                width: 211px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+}

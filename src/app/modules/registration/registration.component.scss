@@ -1,0 +1,54 @@
+.main {
+    .header {
+        background-color: #FFB703;
+    }
+    .create-heading {
+        padding: 2rem 4rem;
+        h1 {
+            font-size: 3rem;
+            font-family: 'Poppins';
+            color: #0D1D28;
+        }
+        h2 {
+            font-size: 2rem;
+            padding: 20px;
+            font-family: 'Poppins';
+            color: #374956;
+            ;
+        }
+    }
+    .form {
+        // padding: 1rem 25rem;
+        input {
+            border: 0;
+            border-bottom: 1px solid #E7ECEF;
+        }
+        label {
+            font-size: 23px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .country-code {
+            .code {
+                font-size: 20px;
+            }
+        }
+        .btn-countinue {
+            color: #0D1D28;
+            background-color: #FFB703;
+            border: 0;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 22px;
+        }
+    }
+    .btn-countinue {
+        color: #0D1D28;
+        background-color: #FFB703;
+        border: 0;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 22px;
+    }
+}

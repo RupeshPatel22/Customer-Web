@@ -1,0 +1,185 @@
+.order-detail-main {
+    padding: 20px 40px;
+    .order-id {
+        font-size: 26px;
+        font-weight: 600;
+        color: #0D1D28;
+    }
+    .order-detail-content {
+        .order-information {
+            .delivered {
+                background-color: rgba(207, 238, 228, 0.5);
+                border-radius: 10px;
+                height: 41px;
+                padding: 20px;
+                label {
+                    color: #04A971;
+                }
+            }
+            .delivery-address {
+                padding: 10px 20px;
+                border: 1px solid #F2F5F8;
+                border-radius: 10px;
+                h3 {
+                    font-size: 16px;
+                    color: #091223;
+                }
+                p {
+                    font-size: 14px;
+                    color: #737B89;
+                    font-weight: 500;
+                }
+                label {
+                    font-size: 14px;
+                    color: #50616E;
+                    font-weight: 500;
+                }
+            }
+            .order-items {
+                padding: 10px 20px;
+                border-top: 1px solid #F2F5F8;
+                border-bottom: 1px solid #F2F5F8;
+                h3 {
+                    font-size: 16px;
+                    color: #0D1D28;
+                }
+                p {
+                    font-size: 14px;
+                    color: #50616E;
+                    font-weight: 400;
+                }
+                .customisable {
+                    color: #FF604A;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+            .bill-summary {
+                // padding: 10px 20px;
+                .order-amount {
+                    border-bottom: 1px solid #F2F5F8;
+                    padding: 10px;
+                    h1 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #091223;
+                    }
+                    .offer {
+                        color: #04A971;
+                    }
+                }
+                .total-amount {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #374956;
+                }
+                .total-price {
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: #091223;
+                }
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #50616E;
+                }
+            }
+            .order-information-cancelled {
+                .delivered {
+                    background: rgba(255, 238, 238, 0.75);
+                    border-radius: 10px;
+                    height: 41px;
+                    padding: 20px;
+                    label {
+                        color: #D71645;
+                    }
+                }
+                .refund-status {
+                    h2 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #091223;
+                    }
+                    .refund-status-detail {
+                        .refund-amount {
+                            border-radius: 10px 10px 0 0;
+                            border: 1px solid #F2F5F8;
+                            padding: 10px 20px;
+                            // border-bottom: 1px solid #E7ECEF;
+                            h3 {
+                                font-size: 15px;
+                                font-weight: 700;
+                                color: #2D2A2E;
+                            }
+                            label {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #50616E;
+                            }
+                        }
+                        .refund-track {
+                            border: 1px solid #F2F5F8;
+                            border-radius: 0 0 10px 10px;
+                            padding: 10px 20px;
+                            .reference-number {
+                                border-radius: 10px;
+                                background-color: #F8F8F9;
+                                padding: 10px 20px;
+                                label {
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    color: #6D7E8B;
+                                }
+                                h4 {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #2D2A2E;
+                                }
+                            }
+                            p {
+                                font-size: 13px;
+                                font-weight: 400;
+                                color: #6D7E8B;
+                                text-align: justify;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .restaurant-information {
+            .restaurant-name {
+                border: 1px solid #F2F5F8;
+                border-radius: 10px;
+                background-color: #ffffff;
+                padding: 20px;
+            }
+            .help {
+                border: 1px solid #F2F5F8;
+                border-radius: 10px;
+                background-color: #ffffff;
+                padding: 20px;
+                .heading-text {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #2D2A2E;
+                }
+                label {
+                    font-size: 16px;
+                    color: #6D7E8B;
+                    font-weight: 500;
+                }
+            }
+            .repeat-order-btn {
+                border: 1px solid #2D2A2E;
+                box-shadow: 0px 2px 8px -2px rgba(255, 185, 0, 0.1);
+                border-radius: 10px;
+                color: #ffffff;
+                background-color: #2D2A2E;
+                font-size: 18px;
+                font-weight: 600;
+                height: 48px;
+            }
+        }
+    }
+}

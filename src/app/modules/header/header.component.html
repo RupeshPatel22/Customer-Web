@@ -1,0 +1,30 @@
+<div class="header d-flex justify-content-between w-100 row">
+    <section class="logo-menu d-flex justify-content-between align-items-center col-2">
+        <img src="../../../assets/images/speedyy-logo-black-text.svg" alt="">
+        <p>Home</p>
+        <p>Account</p>
+    </section>
+    <section class="search d-flex justify-content-between col-4">
+        <span class="location d-flex align-items-center">
+          <img src="../../../assets/images/location.svg" alt="Location logo is here" height="16" width="14" />
+          <p class="d-flex ms-2 m-0">Karnataka Vidhana...</p>
+      </span>
+        <span class="search-input d-flex align-items-center">
+          <img class="img-search ms-3 me-2" src="../../../assets/images/search.svg" alt="" height="20">
+          <input class="input" type="text" placeholder="Search for Food , groceries, etc">
+          <!-- <mat-form-field class="input" appearance="outline">
+              <input matInput formControlName="search" type="text" placeholder="Search for Food , groceries, etc" />
+          </mat-form-field> -->
+      </span>
+    </section>
+    <section class="cart-login d-flex justify-content-evenly align-items-center col-3">
+        <a href=""><b>Help?</b></a>
+        <img src="../../../assets/images/notification-yellow.svg" alt="" height="32" width="30">
+        <img src="../../../assets/images/cart.svg" alt="" height="32" width="35">
+        <button class="btn-sign-in" *ngIf="!isProfileDetail" (click)="showProfileDetail()"><b>Sign In</b></button>
+        <span class="d-flex align-items-center" *ngIf="isProfileDetail">
+            <img src="../../../assets/images/profile-image.png" alt="" height="35" width="35">
+            <label class="ms-3"><b>Suman</b></label>
+        </span>
+    </section>
+</div>

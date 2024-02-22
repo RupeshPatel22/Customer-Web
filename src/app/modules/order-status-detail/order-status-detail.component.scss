@@ -1,0 +1,178 @@
+.order-details {
+    padding: 20px 40px;
+    .order-id {
+        a {
+            color: #2D2A2E;
+            font-weight: 600;
+            font-size: 14px;
+            // letter-spacing: -0.2px;
+        }
+    }
+    .order-map {
+        .map {
+            .order-placed {
+                position: absolute;
+                bottom: 43rem;
+                left: 38rem;
+                background-color: #FFFFFF;
+                height: 82px;
+                width: 300px;
+                border: 1px solid #ECEBEA;
+                border-radius: 16px;
+                padding: 15px 20px;
+                box-shadow: 0px 14px 20px rgba(29, 24, 12, 0.08);
+                h3 {
+                    color: #0D1D28;
+                    font-size: 18px;
+                }
+                p {
+                    color: #6D7E8B;
+                    font-size: 14px;
+                }
+            }
+            .order-processed {
+                height: 146px;
+                width: 300px;
+                border: 1px solid #ECEBEA;
+                background-color: #FFFFFF;
+                border-radius: 16px;
+                padding: 15px 20px;
+                box-shadow: 0px 14px 20px rgba(29, 24, 12, 0.09);
+                h3 {
+                    color: #0D1D28;
+                    font-size: 18px;
+                }
+                p {
+                    color: #6D7E8B;
+                    font-size: 14px;
+                }
+                label {
+                    color: #2D2A2E;
+                    font-size: 14px;
+                }
+            }
+            .driver-assigned {
+                height: 220px;
+                width: 300px;
+                border: 1px solid #ECEBEA;
+                background-color: #FFFFFF;
+                border-radius: 16px;
+                padding: 15px 20px;
+                box-shadow: 0px 14px 20px rgba(29, 24, 12, 0.09);
+                button {
+                    color: #FFFFFF;
+                    background-color: #0D1D28;
+                    border-radius: 8px;
+                    height: 36px;
+                    font-size: 18px;
+                    width: 80px;
+                    font-weight: 600;
+                }
+                h3 {
+                    color: #0D1D28;
+                    font-size: 18px;
+                }
+                p {
+                    color: #6D7E8B;
+                    font-size: 14px;
+                }
+                label {
+                    color: #2D2A2E;
+                    font-size: 14px;
+                }
+                .contact-info {
+                    border: 1px solid #D2D9DE;
+                    box-shadow: 0px 2px 8px rgba(45, 42, 46, 0.08);
+                    border-radius: 8px;
+                    padding: 5px 20px;
+                }
+            }
+        }
+        .order {
+            .cart-detail {
+                border: 1px solid #E7ECEF;
+                border-radius: 12px;
+                padding: 1.5rem;
+                .delivery-address {
+                    background-color: #FDF2CC;
+                    border-radius: 12px;
+                    padding: 20px 15px;
+                }
+                .restaurant-image {
+                    border-radius: 8px;
+                }
+                .customisable {
+                    color: #FF604A;
+                }
+                .offer {
+                    color: #04A971;
+                }
+                input {
+                    background-color: #F2F5F8;
+                    border-radius: 10px;
+                    border: 1px dashed #D2D9DE;
+                    height: 50px;
+                     ::placeholder {
+                        color: #2D2A2E;
+                    }
+                }
+                .coupon {
+                    background: #FEF7D3;
+                    /* accent */
+                    border: 1px dashed #FCD400;
+                    border-radius: 8px;
+                    padding: 10px;
+                }
+                button {
+                    border: 1px solid #2D2A2E;
+                    border-radius: 8px;
+                    color: #FFFFFF;
+                    background-color: #2D2A2E;
+                    width: 150px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+.order-feedback-details {
+    padding: 20px 40px;
+    .order-id {
+        a {
+            color: #2D2A2E;
+            font-weight: 600;
+            font-size: 14px;
+            // letter-spacing: -0.2px;
+        }
+    }
+    .order-feedback {
+        .feedback {
+            padding: 40px 50px;
+            border: 1px solid #F2F5F8;
+            border-radius: 12px;
+            .happy {
+                background-color: #FFF9ED;
+                border: 1px solid #FCB937;
+                border-radius: 12px;
+                padding: 80px 100px;
+            }
+            .sad {
+                border: 1px solid #E7ECEF;
+                border-radius: 12px;
+                padding: 80px 100px;
+            }
+            input {
+                height: 140px;
+                width: 695px;
+                background-color: #F2F5F8;
+                border: 1px solid #D2D9DE;
+                border-radius: 12px;
+            }
+            .note {
+                text-align: left !important;
+                color: #6D7E8B;
+            }
+        }
+    }
+}

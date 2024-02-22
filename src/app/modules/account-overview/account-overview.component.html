@@ -1,0 +1,90 @@
+<div class="account-overview-main">
+    <app-header></app-header>
+    <div class="account-overview-main__content row w-100">
+        <section class="side-nave col-3">
+            <div class="d-flex justify-content-center">
+                <img (click)="showAccountOverview()" src="../../../assets/images/profile-image.png" alt="">
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+                <span (click)="showMyorder()" class=" d-flex mt-5 ms-5 align-items-center" [ngClass]="isMyOrder? 'active':''">
+                    <img class="ms-3" src="../../../assets/images/my-orders-icon.svg" alt="">
+                    <label for="" class="ms-3">My Orders</label>
+                </span>
+                <span (click)="showPaymentRefunds()" class="d-flex mt-4 ms-5 align-items-center" [ngClass]="isPaymentRefunds? 'active':''">
+                    <img class="ms-3" src="../../../assets/images/payment-icon.svg" alt="">
+                    <label for="" class="ms-3">Payment & Refunds</label>
+                </span>
+                <span (click)="showSpeedyyWallet()" class="d-flex mt-4 ms-5 align-items-center" [ngClass]="isSpeedyyWallet? 'active':''">
+                    <img class="ms-3" src="../../../assets/images/speedyy-wallet-icon.svg" alt="">
+                    <label for="" class="ms-3">Speedyy wallet</label>
+                </span>
+                <span (click)="showMywishlist()" class="d-flex mt-4 ms-5 align-items-center" [ngClass]="isMyWishlist? 'active':''">
+                    <img class="ms-3" src="../../../assets/images/wishlist-icon.svg" alt="">
+                    <label for="" class="ms-3">My Wishlist</label>
+                </span>
+                <span (click)="showManageAddress()" class="d-flex mt-4 ms-5 align-items-center" [ngClass]="isManageAddress? 'active':''">
+                    <img class="ms-3" src="../../../assets/images/manage-address-icon.svg" alt="">
+                    <label for="" class="ms-3">Manage address</label>
+                </span>
+                <span class="d-flex mt-4 ms-5 align-items-center" [ngClass]="isHelpSupport? 'active':''">
+                    <img class="ms-3" src="../../../assets/images/help&support-icon.svg" alt="">
+                    <label for="" class="ms-3">Help & support</label>
+                </span>
+                <span class="d-flex mt-4 ms-5 align-items-center">
+                    <img class="ms-3" src="../../../assets/images/logout-icon.svg" alt="">
+                    <label for="" class="ms-3">Log out</label>
+                </span>
+            </div>
+        </section>
+        <section class="col-9">
+            <div *ngIf="isAccountOverview" class="account-overview">
+                <h1>Account overview</h1>
+                <h2>Profile</h2>
+                <div class="user-detail d-flex w-75 mt-5">
+                    <p for="" class="w-50">User Name</p>
+                    <label for="" class="w-50">Suman Mishra</label>
+                </div>
+                <div class="user-detail d-flex w-75  mt-5">
+                    <p for="" class="w-50">Email</p>
+                    <label for="" class="w-50">suman@example.com</label>
+                </div>
+                <div class="user-detail d-flex w-75 mt-5">
+                    <p for="" class="w-50">Phone number</p>
+                    <span class="w-50">
+                    <img src="../../../assets/images/flag.svg" alt="" height="22" width="22">
+                    <label for="" class="ms-2">+91</label>
+                    <img class="ms-1" src="../../../assets/images/down-arrow.svg" alt="">
+                    <label for="" class="ms-4">82948 28374</label>
+                </span>
+                </div>
+                <div class="user-detail d-flex w-75 mt-5">
+                    <p for="" class="w-50">Alternative number</p>
+                    <span class="w-50">
+                    <img src="../../../assets/images/flag.svg" alt="" height="22" width="22">
+                    <label for="" class="ms-2">+91</label>
+                    <img class="ms-1" src="../../../assets/images/down-arrow.svg" alt="">
+                    <label for="" class="ms-4">82948 28374</label>
+                </span>
+                </div>
+                <div class="mt-5">
+                    <button>Edit profile</button>
+                </div>
+            </div>
+            <div *ngIf="isMyOrder">
+                <app-my-order></app-my-order>
+            </div>
+            <div *ngIf="isPaymentRefunds " class="payment-refunds">
+                <app-payment-refund></app-payment-refund>
+            </div>
+            <div *ngIf="isSpeedyyWallet" class="speedyy-wallet ">
+                <app-speedyy-wallet></app-speedyy-wallet>
+            </div>
+            <div *ngIf="isMyWishlist" class="my-wishlist">
+                <app-my-wishlist></app-my-wishlist>
+            </div>
+            <div *ngIf="isManageAddress" class="manage-address">
+                <app-manage-address></app-manage-address>
+            </div>
+        </section>
+    </div>
+</div>

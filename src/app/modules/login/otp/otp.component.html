@@ -1,0 +1,19 @@
+<div class="login-main">
+    <div class="login-wrapper d-flex flex-column justify-content-center align-items-center">
+        <div class="header d-flex flex-column align-items-center">
+        </div>
+        <div class="box-form d-flex flex-column align-items-center mt-5">
+            <img class="company-logo" src="../../../../assets/images/speedyy-gif.gif" alt="Speedyy logo is here" height="120" width="120">
+            <header class="heading mt-4">Get Readyy for Speedyy</header>
+            <p class="input-heading text-center mb-4">Enter the verification Code Sent to 8888888888</p>
+            <ng-otp-input (onInputChange)="onOtpChange($event)" [config]="{length:5}"></ng-otp-input>
+            <button (click)="verifyOtp()" class="custom-btn mt-3" mat-flat-button>GET STARTED</button>
+            <label class="input-heading mt-4"> Didn't receive the code?</label>
+            <div class="otp-not-recieved d-flex flex-column mt-2">
+                <span class="timer" *ngIf="!canResendOtp">{{timeLeft}} secs left</span>
+                <a class="ms-3" (click)="resendOtp()" class="a-link" *ngIf="canResendOtp">Resend Code</a>
+                <a class="ms-3" (click)="goToLoginPage()" [routerLink]="'/login'" class="a-link a-link--ml">Sign in again</a>
+            </div>
+        </div>
+    </div>
+</div>

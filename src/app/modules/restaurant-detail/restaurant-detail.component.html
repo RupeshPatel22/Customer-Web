@@ -1,0 +1,178 @@
+<div class="restaurant-detail w-100">
+    <div class="restaurant-header">
+        <div class="overview d-flex row w-100  ">
+            <span class="details col-8 mt-5">
+                <span class="d-flex">
+                    <p class="text">Home  / &nbsp; </p> <p class="text" [routerLink]="'/restaurants2'"> Restaurant  / &nbsp;  </p> <p class="name-text"> Mixstreet cafe</p>
+                </span>
+            <label class="restaurant-name mt-2">Mixstreet cafe</label>
+            <span class="d-flex align-items-center mt-2">
+                    <img src="../../../assets/images/restaurant-location.svg" alt="Location image is here">
+                    <p class="restaurant-address ms-2 m-0">23451 National Gallery of Modern Art</p>
+                </span>
+            <div class="general-detail d-flex mt-4">
+                <span class="d-flex align-items-center">
+                    <img src="../../../assets/images/rupees.svg" alt="Rupees symbol is here">
+                    <p class="m-0 ms-2">400 for 2</p>
+                </span>
+                <span class="d-flex align-items-center ms-3">
+                    <img src="../../../assets/images/timer.svg" alt="Timer Icon is here">
+                    <p class="m-0 ms-2">45 Mins</p>
+                </span>
+                <span class="d-flex align-items-center ms-3">
+                    <img src="../../../assets/images/restaurant-like.svg" alt="Like Icon is here">
+                    <p class="m-0 ms-2">38%</p>
+                </span>
+            </div>
+            <div class="discount d-flex mt-5">
+                <span class="d-flex align-items-center">
+                    <img src="../../../assets/images/discount.svg" alt="Discount Icon is here">
+                    <p class="m-0 ms-2">30% off up to ₹75 | Use code SPEEDYYIT</p>
+                </span>
+                <span class="d-flex align-items-center ms-3">
+                    <img src="../../../assets/images/discount.svg" alt="Discount Icon is here">
+                    <p class="m-0 ms-2">50% off up to ₹75 | Use code SPEEDYYIT</p>
+                </span>
+                <span class="d-flex align-items-center ms-3">
+                    <img src="../../../assets/images/discount.svg" alt="Discount Icon is here">
+                    <p class="m-0 ms-2">20% off up to ₹75 | Use code SPEEDYYIT</p>
+                </span>
+            </div>
+            </span>
+            <span class="restaurant-image col-4 mt-4">
+                <img src="../../../assets/images/mixstreet.png" alt="Restaurant Image is here" height="260" width="400">
+            </span>
+        </div>
+        <hr>
+        <div class="recommended">
+            <h1><b>Recommended</b></h1>
+            <div class="catogory d-flex flex-wrap gap-4">
+                <p class="selected m-0">All</p>
+                <p class="m-0">Burgers</p>
+                <p class="m-0">Sandwich</p>
+                <p class="m-0">Desserts</p>
+                <p class="m-0">Snacks</p>
+                <p class="m-0">chinese</p>
+                <p class="m-0">Breakfast</p>
+                <p class="selected m-0">More ></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-cart row w-100">
+        <div class="menu d-flex flex-column  col-9">
+            <section class="search-type d-flex align-items-center justify-content-between">
+                <span class="type">
+                    <input type="checkbox"> <label class="ms-2 " for=" ">Veg</label>
+                    <input class="ms-4 " type="checkbox"> <label class="ms-2 " for=" ">Non veg</label>
+                </span>
+                <span class="search-input d-flex align-items-center">
+                    <img class="img-search ms-3 me-2 " src="../../../assets/images/search.svg " alt=" " height="20 ">
+                    <input class="input " type="text " placeholder="Search for Food , groceries, etc ">
+                </span>
+            </section>
+            <section class="menu-list">
+                <h1><b>Burgers</b></h1>
+                <ul class="d-flex flex-wrap gap-4">
+                    <li class="d-flex flex-column">
+                        <span>
+                            <img class="" src="../../../assets/images/burger.png" alt="">
+                            <img class="plus" src="../../../assets/images/plus (2).svg" alt="" height="70" width="70">
+                        </span>
+                        <span>
+                            <label class="mt-3" for=""><b>Double Quarter Pounder with fries</b></label>
+                            <hr>
+                            <p>Our best-selling burger with crispy veg patty, fresh onion and our signature sauce.</p>
+                            <label for=""><b>₹160</b></label>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="mt-2">
+                            <img  src="../../../assets/images/burger2.png" alt="">
+                            <img class="plus" src="../../../assets/images/plus (2).svg" alt="" height="70" width="70">
+                        </span>
+                        <label class="mt-3" for=""><b>Cheese Melt Down Burger</b></label>
+                        <hr>
+                        <p>Cheese oozing spicy veg patty, veggies and creamy sauce. An indulgent treat...</p>
+                        <label for=""><b>₹169</b></label>
+                    </li>
+                    <li>
+                        <img src="../../../assets/images/burger3.png" alt="">
+                        <label class="mt-3" for=""><b>Tikki Twist Burger</b></label>
+                        <hr>
+                        <p>Tikki bhi, Twist bhi! Our new signature burger with spicy sauce, onion</p>
+                        <label for=""><b>₹60</b></label>
+                    </li>
+                    <!-- <li>
+                        <img class="mt-4" src="../../../assets/images/burger3.png" alt="">
+                        <label class="mt-3" for=""><b>Tikki Twist Burger</b></label>
+                        <hr>
+                        <p>Tikki bhi, Twist bhi! Our new signature burger with spicy sauce, onion</p>
+                        <label for=""><b>₹60</b></label>
+                    </li>
+                    <li>
+                        <img class="mt-4" src="../../../assets/images/burger3.png" alt="">
+                        <label class="mt-3" for=""><b>Tikki Twist Burger</b></label>
+                        <hr>
+                        <p>Tikki bhi, Twist bhi! Our new signature burger with spicy sauce, onion</p>
+                        <label for=""><b>₹60</b></label>
+                    </li>
+                    <li>
+                        <img class="mt-4" src="../../../assets/images/burger3.png" alt="">
+                        <label class="mt-3" for=""><b>Tikki Twist Burger</b></label>
+                        <hr>
+                        <p>Tikki bhi, Twist bhi! Our new signature burger with spicy sauce, onion</p>
+                        <label for=""><b>₹60</b></label>
+                    </li> -->
+                </ul>
+            </section>
+
+        </div>
+        <div class="cart col-3 mt-2">
+            <span class="d-flex align-items-center">
+                <h1 >Your Cart
+                </h1>
+                <p class="item ms-1">.1 ITEM</p>
+            </span>
+            <div class="cart-detail">
+                <section class="d-flex align-items-center justify-content-between">
+                    <span class="d-flex align-items-center">
+                        <img src="../../../assets/images/veg-icon.svg" alt="">
+                        <span class="ms-4 align-items-start">
+                            <h3 class="m-0"><b>Nutella Waffle</b></h3>
+                            <p class="m-0">Regular · ₹130 x 2</p>
+                        </span>
+                    </span>
+                    <span class="d-flex align-items-center">
+                        <img src="../../../assets/images/minus.png" alt="">
+                        <p class="quantity m-0 ms-2">2</p>
+                        <img class="ms-2" src="../../../assets/images/plus.png" alt="">
+                    </span>
+                </section>
+                <section class="d-flex align-items-center justify-content-between mt-4">
+                    <span class="d-flex align-items-center">
+                        <img src="../../../assets/images/veg-icon.svg" alt="">
+                        <span class="ms-4 align-items-start">
+                            <h3 class="m-0"><b>Nutella Waffle</b></h3>
+                            <p class="m-0">Regular · ₹130 x 2</p>
+                        </span>
+                    </span>
+                    <span class="d-flex align-items-center">
+                        <img src="../../../assets/images/minus.png" alt="">
+                        <p class="quantity m-0 ms-2">2</p>
+                        <img class="ms-2" src="../../../assets/images/plus.png" alt="">
+                    </span>
+                </section>
+                <p class="customisable mt-2 ms-4"><b>Customisable <img src="../../../assets/images/down-arrow.svg" alt=""></b></p>
+                <hr>
+                <div class="w-100">
+                    <span class="d-flex justify-content-between">
+                        <h2>Subtotal</h2>
+                        <h2><b>₹575.00</b></h2>
+                    </span>
+                    <button class="w-100" [routerLink]="'/checkout-detail'"><b>Checkout</b></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

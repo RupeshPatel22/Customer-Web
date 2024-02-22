@@ -1,0 +1,73 @@
+.my-order-main {
+    padding: 10px 30px;
+    &__content {
+        h1 {
+            font-weight: 600;
+            font-size: 34px;
+            color: #0D1D28;
+        }
+        .orders {
+            .order-detail {
+                height: 310px;
+                width: 500px;
+                padding: 10px;
+                .restaurant-detail {
+                    border-radius: 10px 10px 0 0;
+                    border: 1px solid #F2F5F8;
+                    padding: 30px 20px;
+                    .restaurant-name {
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #0D1D28;
+                    }
+                    .restaurant-address {
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: #6D7E8B;
+                    }
+                    .order-id-date {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #374956;
+                        opacity: 0.6;
+                    }
+                    .in-progress {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #04A971;
+                    }
+                    .cancelled {
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: #FF604A;
+                    }
+                }
+                .order-information {
+                    border: 1px solid #F2F5F8;
+                    border-radius: 0 0 10px 10px;
+                    padding: 30px 20px;
+                    .order-items {
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #1C2A38;
+                    }
+                    .total-amount {
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #0D1D28;
+                    }
+                    button {
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #2D2A2E;
+                        background-color: #FFFFFF;
+                        border: 1px solid #0D1D28;
+                        border-radius: 8px;
+                        width: 126px;
+                        height: 36px;
+                    }
+                }
+            }
+        }
+    }
+}

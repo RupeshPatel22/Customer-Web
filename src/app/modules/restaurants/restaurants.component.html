@@ -1,0 +1,163 @@
+<app-header></app-header>
+<div class="restaurants-main">
+    <div class="all-service">
+        <h1><b>All Service</b></h1>
+        <section class="d-flex justify-content-between">
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/grocery-all-service.svg" alt="">
+                <p class="mt-3">Grocery</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/pharma-all-service.svg" alt="">
+                <p class="mt-3">Pharma</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/urban-service-all-service.svg" alt="">
+                <p class="mt-3">Urban Service</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/pet-shop-all-service.svg" alt="">
+                <p class="mt-3">Pet Shop</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/local-transport-all-service.svg" alt="">
+                <p class="mt-3">Local Transport</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/hotel-all-service.svg" alt="">
+                <p class="mt-3">Hotel</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/pan-all-service.svg" alt="">
+                <p class="mt-3">Pan Shop</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/lifestyle-all-service.svg" alt="">
+                <p class="mt-3">Lifestyle</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/electronics-all-service.svg" alt="">
+                <p class="mt-3">Electronics</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/pick&drop-all-service.svg" alt="">
+                <p class="mt-3">Pick & Drop</p>
+            </span>
+            <span class="d-flex flex-column align-items-center">
+                <img src="../../../assets/images/loudary.svg" alt="">
+                <p class="mt-3">Laundry</p>
+            </span>
+        </section>
+    </div>
+    <div class="restaurants w-100 row mt-5">
+
+        <section class="all-restaurants col-3">
+            <h1><b>All Restaurants</b></h1>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h2 class="m-0"><b>Sort By</b></h2>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <span class="d-flex justify-content-between">
+                    <p><b>Popular</b></p>
+                    <input type="radio">
+                </span>
+                <span class="d-flex justify-content-between">
+                    <p>Top Rated</p>
+                    <input type="radio">
+                </span>
+                <span class="d-flex justify-content-between">
+                    <p>Delivery Time</p>
+                    <input type="radio">
+                </span>
+            </mat-expansion-panel>
+            <mat-expansion-panel class="mt-2">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h2 class="m-0"><b>Category</b></h2>
+                    </mat-panel-title>
+                    <!-- <mat-panel-description>Choose Your Catogory Here</mat-panel-description> -->
+                </mat-expansion-panel-header>
+                <div class="category d-flex flex-wrap">
+                    <p class="selected">Pizza</p>
+                    <p>Asian</p>
+                    <p>Barbeque</p>
+                    <p>Thai</p>
+                    <p>American</p>
+                    <p>Italian Food</p>
+                    <p>chinese</p>
+                    <p>Arabic</p>
+                    <p>Japanese</p>
+                </div>
+            </mat-expansion-panel>
+            <mat-expansion-panel class="mt-2">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        <h2 class="m-0"><b>Cost Per Person</b></h2>
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div class="cost-per-person d-flex flex-wrap">
+                    <p>?</p>
+                    <p>??</p>
+                    <p>???</p>
+                    <p>????</p>
+                </div>
+            </mat-expansion-panel>
+        </section>
+
+        <section class="favorite col-9">
+            <h1><b>Find New Favorites</b></h1>
+            <ul class="d-flex flex-wrap gap-5">
+                <li>
+                    <img class="outlet-image" src="../../../assets/images/mixstreet cafe.png" [routerLink]="'/restaurant-detail'" alt="">
+                    <span class="d-flex align-items-center justify-content-between mt-3">
+                            <h2 class="m-0" [routerLink]="'/restaurant-detail'"><b>Mixstreet Cafe</b></h2>
+                            <span class="d-flex ">
+                                <h3 class="m-0">45%</h3>
+                                <img class="ms-2" src="../../../assets/images/like.svg" alt="" height="20" width="20"> 
+                            </span>
+                    </span>
+                    <p class="mt-2">23451 National Gallery of Modern Art</p>
+                    <hr>
+                    <label for="">Delivery  ·  Reservation  ·  $$$  ·  2 Miles</label>
+                </li>
+                <li>
+                    <img class="outlet-image" src="../../../assets/images/mixstreet cafe.png" [routerLink]="'/restaurant-detail'" alt="">
+                    <span class="d-flex align-items-center justify-content-between mt-3">
+                            <h2 class="m-0" [routerLink]="'/restaurant-detail'"><b>Mixstreet Cafe</b></h2>
+                            <span class="d-flex ">
+                                <h3 class="m-0">45%</h3>
+                                <img class="ms-2" src="../../../assets/images/like.svg" alt="" height="20" width="20">
+                            </span>
+                    </span>
+                    <p class="mt-2">23451 National Gallery of Modern Art</p>
+                    <hr>
+                    <label for="">Delivery  ·  Reservation  ·  $$$  ·  2 Miles</label>
+                </li>
+                <li>
+                    <img class="outlet-image" src="../../../assets/images/mixstreet cafe.png" [routerLink]="'/restaurant-detail'" alt="">
+                    <span class="d-flex align-items-center justify-content-between mt-3">
+                            <h2 class="m-0" [routerLink]="'/restaurant-detail'"><b>Mixstreet Cafe</b></h2>
+                            <span class="d-flex ">
+                                <h3 class="m-0">45%</h3>
+                                <img class="ms-2" src="../../../assets/images/like.svg" alt="" height="20" width="20">
+                            </span>
+                    </span>
+                    <p class="mt-2">23451 National Gallery of Modern Art</p>
+                    <hr>
+                    <label for="">Delivery  ·  Reservation  ·  $$$  ·  2 Miles</label>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<mat-accordion>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            test
+        </mat-expansion-panel-header>
+    </mat-expansion-panel>
+</mat-accordion>

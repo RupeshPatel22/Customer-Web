@@ -1,0 +1,43 @@
+.payment-refund-main {
+    &__content {
+        .payment-refunds {
+            padding: 10px 30px;
+            h1 {
+                font-weight: 600;
+                font-size: 34px;
+                color: #0D1D28;
+            }
+            .wallet {
+                border: 1px solid #F2F5F8;
+                border-radius: 12px;
+                padding: 20px 30px;
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #50616E;
+                }
+                .payment-option {
+                    border-bottom: 1px solid #F2F5F8;
+                    padding: 20px 0;
+                    label {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #2D2A2E;
+                    }
+                }
+                .saved-payment {
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #0D1D28;
+                    }
+                    label {
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #50616E;
+                    }
+                }
+            }
+        }
+    }
+}

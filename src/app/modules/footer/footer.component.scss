@@ -1,0 +1,42 @@
+.footer-main {
+    background-color: #F9FBFC;
+    padding: 50px 150px;
+    .content {
+        .social {
+            .info {
+                color: #6D7E8B;
+                font-weight: 400;
+                font-size: 16px;
+            }
+            .follow {
+                color: #ACB8C1;
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+        h4 {
+            color: #8D9DA8;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            color: #374956;
+            font-family: 'Poppins';
+            font-style: normal;
+        }
+        .download-app {
+            width: 17%;
+        }
+    }
+    .rights {
+        border-top: 1px solid #D2D9DE;
+        padding-top: 20px;
+        p {
+            color: #ACB8C1;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+}

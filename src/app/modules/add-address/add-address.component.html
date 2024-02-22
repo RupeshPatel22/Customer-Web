@@ -1,0 +1,47 @@
+<app-header></app-header>
+<div class="add-address-main row w-100">
+    <section class="col-1"></section>
+    <section class="enter-address col-5">
+        <span class="d-flex align-items-center">
+            <img src="../../../assets/images/lessthan.svg" [routerLink]="'/checkout-detail'" alt="">
+            <label for="" class="enter-new-address ms-3">Enter new address</label>
+        </span>
+        <div class="add-address-form d-flex flex-column mt-5">
+            <label for="" class="your-location">Your location</label>
+            <span class="d-flex justify-content-between mt-2 ">
+                    <input class="industrial-area w-100" type="text" placeholder="Industrial Area.">
+                    <a href="">Change</a>
+            </span>
+            <span class="d-flex flex-column mt-4">
+                <label for="" class="heading-text">Complete Address</label>
+                <input class="input mt-2" type="text" placeholder="Enter complete address">
+            </span>
+            <span class="d-flex flex-column mt-4">
+                <label for="" class="heading-text">Floor</label>
+                <input class="input mt-2" type="text" placeholder="Optional">
+            </span>
+            <span class="d-flex flex-column mt-4">
+                <label for="" class="heading-text">How to reach</label>
+                <input class="input mt-2" type="text" placeholder="Optional">
+            </span>
+            <span class="d-flex flex-column mt-4">
+                <label for="" class="heading-text">Save this location for later</label>
+                <span class="d-flex flex-wrap gap-3 mt-2">
+                    <button>Home</button>
+                    <button>Work</button>
+                    <button>Hotel</button>
+                    <button>Other</button>
+                </span>
+            </span>
+            <span class="mt-5"> 
+                <button class="confirm-btn">Confirm location</button>
+            </span>
+        </div>
+    </section>
+    <section class="map-location d-flex flex-colum col-5">
+        <span>
+            <label for="" class="location-on-map">Location on map</label>
+            <img class="mt-4 d-flex justify-content-start" src="../../../assets/images/add-address-map.svg" alt="">
+        </span>
+    </section>
+</div>
